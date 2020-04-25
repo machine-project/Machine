@@ -273,7 +273,7 @@ public void start() {
 
 ### 결과창 표시
 
-+ 결과창으로 넘어갈 때 다 사라지기 위해서 써주었다.
++ 버튼 ss2가 눌렸을 경우 endPage패널 외에는 보이지 않게 설정 하였다.
 
 ```
 ss2.addActionListener(new ActionListener() {
@@ -291,7 +291,21 @@ ss2.addActionListener(new ActionListener() {
 ```
 
 ----------------------------------
+### 시스템 종료
++ 버튼 btnEnd가 눌렷을 경우 실행되는 시스템이 종료 되도록 하였다.
+```
+btnEnd.addActionListener(new ActionListener() {
 
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+
+        });
+
+```
+
+----------------------------------
 #### JAVA API
 
 ```
