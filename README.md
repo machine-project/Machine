@@ -292,7 +292,7 @@ ss2.addActionListener(new ActionListener() {
 
 ----------------------------------
 ### 시스템 종료
-+ 버튼 btnEnd가 눌렷을 경우 실행되는 시스템이 종료 되도록 하였다.
++ 버튼 btnEnd가 눌렸을 경우 실행되는 시스템이 종료 되도록 하였다.
 ```
 btnEnd.addActionListener(new ActionListener() {
 
