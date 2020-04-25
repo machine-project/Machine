@@ -332,4 +332,16 @@ import java.awt.Color;
 
 ## 결과창
 
+1. 아무것도 누르지 않은 초기 상태
 ![](images/machine.PNG)
+
+2. `INPUT`버튼만 4번 누른 상태 (실제 자판기의 모습을 생각해서 간단하게 1000원권만 가능하도록 수정해보았다.)
+![](images/result1.PNG)
+
+3. 각각의 음료를 1개씩 주문하도록 `+1`버튼을 순서대로 누르는 과정
+![](images/result2.PNG)
+![](images/result3.PNG)
+![](images/result4.PNG)
+
+4. `PURCHASE!`버튼을 누른 후 자판기 시스템이 종료된 상태
+![](images/result5.PNG)
