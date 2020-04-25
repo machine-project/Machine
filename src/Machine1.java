@@ -36,9 +36,9 @@ public class Machine extends JFrame implements MouseListener
     ImageIcon b3 = new ImageIcon("images/coka.png");
     JLabel imagelabel3 = new JLabel(b3);
 
-    private JLabel name1 = new JLabel("COFFEE | 1200₩");
-    private JLabel name2 = new JLabel("JUICE | 1100₩");
-    private JLabel name3 = new JLabel("COKE | 1400₩");
+    private JLabel name1 = new JLabel("COFFEE | 1200원");
+    private JLabel name2 = new JLabel("JUICE | 1100원");
+    private JLabel name3 = new JLabel("COKE | 1400원");
 
     private JLabel l1 = new JLabel("0");
     private JButton bu1 = new JButton("+1");
@@ -53,7 +53,7 @@ public class Machine extends JFrame implements MouseListener
     private JButton bu6 = new JButton("-1");
 
     private JLabel s3 = new JLabel("0");
-    private JButton ss3 = new JButton("INPUT(Only 1000₩)");
+    private JButton ss3 = new JButton("INPUT(Only 1000원)");
 
     private JLabel s4 = new JLabel("0");
     private JButton ss4 = new JButton("CHANGE");
@@ -80,11 +80,11 @@ public class Machine extends JFrame implements MouseListener
 
         j2.setBorder(BorderFactory.createEmptyBorder(50, 0, 0, 0));
 
-        title1.setFont(new Font("굴림", Font.BOLD, 17));
-        name1.setFont(new Font("굴림", Font.BOLD, 15));
-        name2.setFont(new Font("굴림", Font.BOLD, 15));
-        name3.setFont(new Font("굴림", Font.BOLD, 15));
-        btnEnd.setFont(new Font("굴림", Font.BOLD, 17));
+        title1.setFont(new Font("援대┝", Font.BOLD, 17));
+        name1.setFont(new Font("援대┝", Font.BOLD, 15));
+        name2.setFont(new Font("援대┝", Font.BOLD, 15));
+        name3.setFont(new Font("援대┝", Font.BOLD, 15));
+        btnEnd.setFont(new Font("援대┝", Font.BOLD, 17));
 
         endPage.add(btnEnd);
 
@@ -95,6 +95,7 @@ public class Machine extends JFrame implements MouseListener
         j1.setBackground(Color.ORANGE);
 
         this.add("Center", j5);
+        j5.setBorder(BorderFactory.createEmptyBorder(30, 10, 10, 10));
         j5.add(imagelabel1);
         j5.add(imagelabel2);
         j5.add(imagelabel3);
@@ -111,7 +112,8 @@ public class Machine extends JFrame implements MouseListener
         j5.add(bu5);
         j5.add(bu6);
         j5.setBackground(Color.WHITE);
-
+        
+        j7.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         j7.add(s3);
         j7.add(ss3);
 
