@@ -68,7 +68,7 @@ public class Machine extends JFrame implements MouseListener
 
     public Machine()
     {
-        super("COFFEE MACHINE");
+        super("VENDING MACHINE");
 
         init();
         start();
