@@ -346,6 +346,8 @@ import java.awt.Color;
 ![](images/result3.PNG)
 ![](images/result4.PNG)
 
-+ `PURCHASE!`버튼을 누른 후 자판기 시스템이 종료된 상태
++ `PURCHASE!`버튼을 눌러서 다음 화면(패널 endPage)로 화면이 넘어간 상태
 
 ![](images/result5.PNG)
+
++ `Your purchase has been completed!` 버튼을 누르면 실행 창이 종료된다. (시스템 종료)
